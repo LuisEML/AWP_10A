@@ -127,13 +127,9 @@
         eventoPrompt = e;
       });
       btnInstalar = document.getElementById("instalar");
-      if (eventoPrompt === undefined) {
-        btnInstalar.style.display = "none";
-        console.log(eventoPrompt)
-      }else{
         btnInstalar.addEventListener("click", (e) => {
           console.log(eventoPrompt)    
-          // btnInstalar.style.display = "none";
+          btnInstalar.style.display = "none";
           eventoPrompt.prompt();
           eventoPrompt.userChoice.then((choiceResult) => {
             if (choiceResult.outcome === "accepted") {
@@ -144,7 +140,6 @@
             eventoPrompt = null;
           });
         });
-      }
     </script>
   </body>
 </html>
