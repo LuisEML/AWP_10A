@@ -1,0 +1,79 @@
+{
+    "gatos":[
+        {
+            "id":1,
+            "nombre":"Abisinio",
+            "descripcion":"Los abisinios son gatos elegantes de tamaño mediano con un cuerpo ágil y fuerte, y patas esbeltas. Tienen la cabeza cuneiforme redondeada, con pequeños mechones característicos en las puntas de las orejas y ojos grandes y almendrados. Su pelaje corto y ceñido al cuerpo tiene un aspecto característico, que se debe a la presencia de varias franjas de color en cada pelo. El color más conocido es el cobrizo, pero hay algunos otros",
+            "personalidad":"El abisinio es silencioso, inteligente y curioso; se dice que es fiel, disfruta de la compañía humana y se encariña con la familia",
+            "salud":"Los gatos abisinios pueden sufrir una enfermedad hereditaria denominada deficiencia de piruvato quinasa que produce anemia.",
+            "origen":"Abisinia(Etopía)",
+            "img": "img/cats/cat1.jpg"
+
+        },
+        {
+            "id":2,
+            "nombre":"Azul ruso",
+            "descripcion":"El azul ruso es un gato de tamaño mediano a grande, con un cuerpo grácil y elegante y unas patas largas y delgadas. El gato camina como si fuera de puntillas. Tiene la cabeza cuneiforme con mejillas pronunciadas y grandes orejas. Sus intensos ojos verdes tienen una forma almendrada y están bastante separados.",
+            "personalidad":"Los gatos azules rusos son callados y sensibles; a veces se muestran incluso tímidos y reservados, pero tienen fama de ser enormemente fieles al ser humano que han elegido.",
+            "salud":"El gato azul ruso parece una raza que goza de buena salud.",
+            "origen":"Rusia",
+            "img": "img/cats/1.png"
+        },
+        {
+            "id":3,
+            "nombre":"Birmano",
+            "descripcion":"El birmano es un gato de pelo semilargo de color más oscuro hacia las marcas distales, la cara, las patas, las orejas y la cola, y algo más claro en el resto del cuerpo. Es un gato relativamente grande, con un cuerpo rechoncho y de patas cortas.",
+            "personalidad":"Se les conoce por ser muy afectuosos y cariñosos, gracias a haber sido criados como gatos de compañía durante muchas generaciones.",
+            "salud":"Algunos gatos birmanos jóvenes tienen síntomas de insuficiencia renal en los análisis de sangre y, aunque la evolución no es segura, en algunos casos puede desembocar en un fallo renal.",
+            "origen":"Birmania/Francia",
+            "img": "img/cats/2.png"
+        },
+        {
+            "id":4,
+            "nombre":"Bombay",
+            "descripcion":"El bombay es un gato de constitución media y un pelaje negro azabache muy brillante que parece charol. El cráneo es ligeramente redondeado, tiene las orejas redondeadas y un hocico ancho. Sus preciosos ojos de color cobre o dorado están bastante separados y son intensos y expresivos.",
+            "personalidad":"Los gatos del grupo de razas asiáticas son muy amistosos y cariñosos. Los bombay tienen una voz característica y suelen ser muy maulladores.",
+            "salud":"Los bombay suelen gozar de una vida larga y viven bastante bien en sus últimos años. No se conocen enfermedades relacionadas específicamente con esta raza, cuya presencia en el Reino Unido se reduce a pocos ejemplares.",
+            "origen":"Gran Bretaña y EE. UU.",
+            "img": "img/cats/3.png"
+        }
+    ],
+    "perros":[
+        {
+            "id":1,
+            "nombre":"Afgano",
+            "descripcion":"El Afgano es un perro de aspecto noble que luce con orgullo y elegancia su largo y brillante pelaje, que es su mayor atractivo. Es una raza grande con una altura de 68 a 74 cm en la edad adulta para el macho y de 63 a 69 cm en el caso de las hembras.",
+            "personalidad":"A menudo se muestra distante con los desconocidos, por lo que es imprescindible la socialización para este regio perro, al igual que un adiestramiento para cachorros, sobre todo para que aprenda a responder a la llamada del dueño.",
+            "salud":"El afgano es una raza sana y robusta en general con pocos problemas específicos que sean frecuentes.",
+            "origen":"El Afgano, que es una de las razas más antiguas del mundo, atrajo por primera vez la atención de Occidente en el siglo XIX",
+            "img": "img/dogs/4.png"
+        },
+        {
+            "id":2,
+            "nombre":"Basenji",
+            "descripcion":"Este perro de tamaño pequeño-mediano tiene una cola muy curvada y la frente arrugada. El pelaje es brillante, corto y suave y puede ser rojo y blanco, negro y blanco, negro, canela y blanco, tricolor o con muchos colores mezclados. La altura ideal para un adulto macho es de 43 cm (desde las patas hasta el punto más alto del omóplato) y de 40 cm para las hembras.",
+            "personalidad":"Estos perros son únicos porque no ladran, pero sí emiten unos aullidos similares al canto tirolés cuando se ponen nerviosos. Esta raza, despierta, independiente, autosuficiente y prácticamente inodora; es muy similar a un gato y hasta se ha visto a estos perros escalar árboles y vallas como los felinos.",
+            "salud":"Las enfermedades heredadas más conocidas en los basenjis son un tipo de enfermedad renal (síndrome de Fanconi) y una clase de anemia.",
+            "origen":"la raza se trasladó al centro de África",
+            "img": "img/dogs/5.png"
+        },
+        {
+            "id":3,
+            "nombre":"Beagle",
+            "descripcion":"Estos perros robustos y atrevidos son afables, además de compactos y atléticos. Tienen un pelaje corto, denso, resistente a las inclemencias del clima y se presenta en varios colores y patrones. (Para más información, consulta el estándar de la raza). Miden de 33 a 40 cm y pesan de 10 o 11 kg.",
+            "personalidad":"Los beagles tienen buen carácter y si se crían para ser animales de manada, se llevarán bien con la mayoría de los perros. Les encantan los niños, pero en el caso de los gatos, deben estar en contacto con ellos desde cachorros para tener buenas relaciones con los felinos.",
+            "salud":"Los beagles suelen ser una raza robusta y sana. Aun así, al igual que muchas otras razas, puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). ",
+            "origen":"A mediados del siglo XVI, los perros empezaron a clasificarse por su finalidad, es decir: perros de vista, de olfato, etc. ",
+            "img": "img/dogs/6.png"
+        },
+        {
+            "id":4,
+            "nombre":"Bichón Frisé",
+            "descripcion":"Son perros pequeños y sólidos, además de equilibrados y con un aspecto inteligente. Los ojos y el hocico tienen un color negro intenso que contrasta con el pelaje blanco como la nieve y la cola que se curva sobre el lomo y parece una pluma. El pelaje es sedoso y rizado y les da la apariencia de borlas. Los machos y las hembras adultos miden entre 23 y 28 cm y pesan de 3 a 6 kg.",
+            "personalidad":"A estos perritos felices y activos les encanta la vida familiar. Les gusta mucho acompañar a la familia en todas las salidas, pero pueden quedarse solos de vez en cuando.",
+            "salud":"Los bichones son, en general, unos perritos muy sanos. Aun así, como ocurre con muchas otras razas, pueden padecer desplazamientos temporales de la rótula (luxaciones de rótula).",
+            "origen":"Hace siglos el bichón frisé era una raza popular en Francia y España y aparece en retratos de las familias reales de ambos países.",
+            "img": "img/dogs/7.png"
+        }
+    ]
+}
