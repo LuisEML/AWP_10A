@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "58f51626-7231-4b0b-b244-23fa13a0c9f3",
+    });
+  });
+</script>
     <meta name="theme-color" content="#b12A34" />
     <link rel="shortcut icon" href="icon/zorro.png" />
     <link rel="manifest" href="manifest.webmanifest" />
@@ -132,37 +141,26 @@
           });
         });
          //Boton de Notificaciones
-         let botonNotificaciones = document.getElementById("recibirNotificaciones");
-            botonNotificaciones.addEventListener('click', function(e){
-              Notification.requestPermission().then(function(result){
-                if(result==='granted'){
-                  randomNotificacion();
-                }
-              });
-            });
+        //  let botonNotificaciones = document.getElementById("recibirNotificaciones");
+        //     botonNotificaciones.addEventListener('click', function(e){
+        //       Notification.requestPermission().then(function(result){
+        //         if(result==='granted'){
+        //           randomNotificacion();
+        //         }
+        //       });
+        //     });
 
-            function randomNotificacion(){
-              let nTitle="Titulo Notificación";
-              let nbody="Te invitamos a conocer nuestra aplicación WEB";
-              let nImage="./img/new-email.png";
-              let options={
-                body:nbody,
-                icon:nImage
-              }
-              let noti = new Notification(nTitle,options);
-              // setTimeout(randomNotificacion,10000);
-            }
+        //     function randomNotificacion(){
+        //       let nTitle="Titulo Notificación";
+        //       let nbody="Te invitamos a conocer nuestra aplicación WEB";
+        //       let nImage="./img/new-email.png";
+        //       let options={
+        //         body:nbody,
+        //         icon:nImage
+        //       }
+        //       let noti = new Notification(nTitle,options);
+        //       // setTimeout(randomNotificacion,10000);
+        //     }
     </script>
-        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-
-      <script>
-        
-        window.OneSignal = window.OneSignal || [];
-        OneSignal.push(function() {
-        OneSignal.init({
-         appId: "58f51626-7231-4b0b-b244-23fa13a0c9f3",
-        });
-      });
-      </script>
   </body>
 </html>
