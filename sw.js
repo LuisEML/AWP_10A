@@ -1,6 +1,8 @@
 importScripts(
   'https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js'//URL
 );
+importScripts('https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js');
+
 
 workbox.precaching.precacheAndRoute([//Guardar los archivos en cache
   "index.html",// no es necesario guardarlo en el prechache, carga por defecto
