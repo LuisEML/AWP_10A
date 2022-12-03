@@ -16,8 +16,16 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+      OneSignal.init({
+       appId: "58f51626-7231-4b0b-b244-23fa13a0c9f3",
+      });
+    });
+    </script>
   </head>
-
   <body>
     <div class="container-fluid">
       <nav
@@ -82,7 +90,9 @@
           decisión a la hora de elegir tu mascota
         </h6>
       </section>
-
+      <button id="recibirNotificaciones" class="btn-flotante">
+        Recibir Notificaciones💻
+      </button>
       <div class="container">
         <footer
           class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
@@ -140,6 +150,27 @@
             eventoPrompt = null;
           });
         });
+         //Boton de Notificaciones
+         let botonNotificaciones = document.getElementById("recibirNotificaciones");
+            botonNotificaciones.addEventListener('click', function(e){
+              Notification.requestPermission().then(function(result){
+                if(result==='granted'){
+                  randomNotificacion();
+                }
+              });
+            });
+
+            function randomNotificacion(){
+              let nTitle="Titulo Notificación";
+              let nbody="Te invitamos a conocer nuestra aplicación WEB";
+              let nImage="/img/new-email.png";
+              let options={
+                body:nbody,
+                icon:nImage
+              }
+              let noti = new Notification(nTitle,options);
+              setTimeout(randomNotificacion,10000);
+            }
     </script>
   </body>
 </html>
