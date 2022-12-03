@@ -1,4 +1,4 @@
 if('serviceWorker' in navigator){
-    navigator.serviceWorker.register("OneSignalSDKWorker.js");
+    navigator.serviceWorker.register("/OneSignalSDKWorker.js");
     
 }
