@@ -17,14 +17,6 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-    <script>
-      window.OneSignal = window.OneSignal || [];
-      OneSignal.push(function() {
-      OneSignal.init({
-       appId: "58f51626-7231-4b0b-b244-23fa13a0c9f3",
-      });
-    });
-    </script>
   </head>
   <body>
     <div class="container-fluid">
@@ -153,7 +145,7 @@
             function randomNotificacion(){
               let nTitle="Titulo Notificación";
               let nbody="Te invitamos a conocer nuestra aplicación WEB";
-              let nImage="/img/new-email.png";
+              let nImage="./img/new-email.png";
               let options={
                 body:nbody,
                 icon:nImage
@@ -162,5 +154,13 @@
               // setTimeout(randomNotificacion,10000);
             }
     </script>
+      <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+        OneSignal.init({
+         appId: "58f51626-7231-4b0b-b244-23fa13a0c9f3",
+        });
+      });
+      </script>
   </body>
 </html>
