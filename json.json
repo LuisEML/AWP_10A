@@ -2,14 +2,14 @@
     "gatos":[
         {
             "id":1,
-            "nombre":"Abisinio",
-            "descripcion":"Los abisinios son gatos elegantes de tamaño mediano con un cuerpo ágil y fuerte, y patas esbeltas. Tienen la cabeza cuneiforme redondeada, con pequeños mechones característicos en las puntas de las orejas y ojos grandes y almendrados. Su pelaje corto y ceñido al cuerpo tiene un aspecto característico, que se debe a la presencia de varias franjas de color en cada pelo. El color más conocido es el cobrizo, pero hay algunos otros",
-            "personalidad":"El abisinio es silencioso, inteligente y curioso; se dice que es fiel, disfruta de la compañía humana y se encariña con la familia",
-            "salud":"Los gatos abisinios pueden sufrir una enfermedad hereditaria denominada deficiencia de piruvato quinasa que produce anemia.",
-            "origen":"Abisinia(Etopía)",
-            "img": "img/cats/cat1.jpg"
-
+            "nombre":"Birmano",
+            "descripcion":"El birmano es un gato de pelo semilargo de color más oscuro hacia las marcas distales, la cara, las patas, las orejas y la cola, y algo más claro en el resto del cuerpo. Es un gato relativamente grande, con un cuerpo rechoncho y de patas cortas.",
+            "personalidad":"Se les conoce por ser muy afectuosos y cariñosos, gracias a haber sido criados como gatos de compañía durante muchas generaciones.",
+            "salud":"Algunos gatos birmanos jóvenes tienen síntomas de insuficiencia renal en los análisis de sangre y, aunque la evolución no es segura, en algunos casos puede desembocar en un fallo renal.",
+            "origen":"Birmania/Francia",
+            "img": "img/cats/2.png"
         },
+       
         {
             "id":2,
             "nombre":"Azul ruso",
@@ -21,12 +21,13 @@
         },
         {
             "id":3,
-            "nombre":"Birmano",
-            "descripcion":"El birmano es un gato de pelo semilargo de color más oscuro hacia las marcas distales, la cara, las patas, las orejas y la cola, y algo más claro en el resto del cuerpo. Es un gato relativamente grande, con un cuerpo rechoncho y de patas cortas.",
-            "personalidad":"Se les conoce por ser muy afectuosos y cariñosos, gracias a haber sido criados como gatos de compañía durante muchas generaciones.",
-            "salud":"Algunos gatos birmanos jóvenes tienen síntomas de insuficiencia renal en los análisis de sangre y, aunque la evolución no es segura, en algunos casos puede desembocar en un fallo renal.",
-            "origen":"Birmania/Francia",
-            "img": "img/cats/2.png"
+            "nombre":"Abisinio",
+            "descripcion":"Los abisinios son gatos elegantes de tamaño mediano con un cuerpo ágil y fuerte, y patas esbeltas. Tienen la cabeza cuneiforme redondeada, con pequeños mechones característicos en las puntas de las orejas y ojos grandes y almendrados. Su pelaje corto y ceñido al cuerpo tiene un aspecto característico, que se debe a la presencia de varias franjas de color en cada pelo. El color más conocido es el cobrizo, pero hay algunos otros",
+            "personalidad":"El abisinio es silencioso, inteligente y curioso; se dice que es fiel, disfruta de la compañía humana y se encariña con la familia",
+            "salud":"Los gatos abisinios pueden sufrir una enfermedad hereditaria denominada deficiencia de piruvato quinasa que produce anemia.",
+            "origen":"Abisinia(Etopía)",
+            "img": "img/cats/chinchilla.png"
+
         },
         {
             "id":4,
@@ -36,6 +37,60 @@
             "salud":"Los bombay suelen gozar de una vida larga y viven bastante bien en sus últimos años. No se conocen enfermedades relacionadas específicamente con esta raza, cuya presencia en el Reino Unido se reduce a pocos ejemplares.",
             "origen":"Gran Bretaña y EE. UU.",
             "img": "img/cats/3.png"
+        },
+        {
+            "id":5,
+            "nombre":"Asiático",
+            "descripcion":"El bombay es un gato de constitución media y un pelaje negro azabache muy brillante que parece charol. El cráneo es ligeramente redondeado, tiene las orejas redondeadas y un hocico ancho. Sus preciosos ojos de color cobre o dorado están bastante separados y son intensos y expresivos.",
+            "personalidad":"Los gatos del grupo de razas asiáticas son muy amistosos y cariñosos. Los bombay tienen una voz característica y suelen ser muy maulladores.",
+            "salud":"Los bombay suelen gozar de una vida larga y viven bastante bien en sus últimos años. No se conocen enfermedades relacionadas específicamente con esta raza, cuya presencia en el Reino Unido se reduce a pocos ejemplares.",
+            "origen":"Gran Bretaña y EE. UU.",
+            "img": "img/cats/asiatico.png"
+        },
+        {
+            "id":6,
+            "nombre":"Balinés",
+            "descripcion":"El bombay es un gato de constitución media y un pelaje negro azabache muy brillante que parece charol. El cráneo es ligeramente redondeado, tiene las orejas redondeadas y un hocico ancho. Sus preciosos ojos de color cobre o dorado están bastante separados y son intensos y expresivos.",
+            "personalidad":"Los gatos del grupo de razas asiáticas son muy amistosos y cariñosos. Los bombay tienen una voz característica y suelen ser muy maulladores.",
+            "salud":"Los bombay suelen gozar de una vida larga y viven bastante bien en sus últimos años. No se conocen enfermedades relacionadas específicamente con esta raza, cuya presencia en el Reino Unido se reduce a pocos ejemplares.",
+            "origen":"Gran Bretaña y EE. UU.",
+            "img": "img/cats/balines.png"
+        },
+        {
+            "id":7,
+            "nombre":"Bengalí",
+            "descripcion":"El bombay es un gato de constitución media y un pelaje negro azabache muy brillante que parece charol. El cráneo es ligeramente redondeado, tiene las orejas redondeadas y un hocico ancho. Sus preciosos ojos de color cobre o dorado están bastante separados y son intensos y expresivos.",
+            "personalidad":"Los gatos del grupo de razas asiáticas son muy amistosos y cariñosos. Los bombay tienen una voz característica y suelen ser muy maulladores.",
+            "salud":"Los bombay suelen gozar de una vida larga y viven bastante bien en sus últimos años. No se conocen enfermedades relacionadas específicamente con esta raza, cuya presencia en el Reino Unido se reduce a pocos ejemplares.",
+            "origen":"Gran Bretaña y EE. UU.",
+            "img": "img/cats/bengali.png"
+        },
+        {
+            "id":8,
+            "nombre":"Bosque de Noruega",
+            "descripcion":"El bombay es un gato de constitución media y un pelaje negro azabache muy brillante que parece charol. El cráneo es ligeramente redondeado, tiene las orejas redondeadas y un hocico ancho. Sus preciosos ojos de color cobre o dorado están bastante separados y son intensos y expresivos.",
+            "personalidad":"Los gatos del grupo de razas asiáticas son muy amistosos y cariñosos. Los bombay tienen una voz característica y suelen ser muy maulladores.",
+            "salud":"Los bombay suelen gozar de una vida larga y viven bastante bien en sus últimos años. No se conocen enfermedades relacionadas específicamente con esta raza, cuya presencia en el Reino Unido se reduce a pocos ejemplares.",
+            "origen":"Gran Bretaña y EE. UU.",
+            "img": "img/cats/bosque.png"
+        },
+        {
+            "id":9,
+            "nombre":"Burmés",
+            "descripcion":"El bombay es un gato de constitución media y un pelaje negro azabache muy brillante que parece charol. El cráneo es ligeramente redondeado, tiene las orejas redondeadas y un hocico ancho. Sus preciosos ojos de color cobre o dorado están bastante separados y son intensos y expresivos.",
+            "personalidad":"Los gatos del grupo de razas asiáticas son muy amistosos y cariñosos. Los bombay tienen una voz característica y suelen ser muy maulladores.",
+            "salud":"Los bombay suelen gozar de una vida larga y viven bastante bien en sus últimos años. No se conocen enfermedades relacionadas específicamente con esta raza, cuya presencia en el Reino Unido se reduce a pocos ejemplares.",
+            "origen":"Gran Bretaña y EE. UU.",
+            "img": "img/cats/burmese.png"
+        },
+        {
+            "id":10,
+            "nombre":"Bosque de Siberia",
+            "descripcion":"El bombay es un gato de constitución media y un pelaje negro azabache muy brillante que parece charol. El cráneo es ligeramente redondeado, tiene las orejas redondeadas y un hocico ancho. Sus preciosos ojos de color cobre o dorado están bastante separados y son intensos y expresivos.",
+            "personalidad":"Los gatos del grupo de razas asiáticas son muy amistosos y cariñosos. Los bombay tienen una voz característica y suelen ser muy maulladores.",
+            "salud":"Los bombay suelen gozar de una vida larga y viven bastante bien en sus últimos años. No se conocen enfermedades relacionadas específicamente con esta raza, cuya presencia en el Reino Unido se reduce a pocos ejemplares.",
+            "origen":"Gran Bretaña y EE. UU.",
+            "img": "img/cats/cat_siberian.png"
         }
     ],
     "perros":[
@@ -74,6 +129,116 @@
             "salud":"Los bichones son, en general, unos perritos muy sanos. Aun así, como ocurre con muchas otras razas, pueden padecer desplazamientos temporales de la rótula (luxaciones de rótula).",
             "origen":"Hace siglos el bichón frisé era una raza popular en Francia y España y aparece en retratos de las familias reales de ambos países.",
             "img": "img/dogs/7.png"
+        },
+        {
+            "id":5,
+            "nombre":"Affenpinscher",
+            "descripcion":"Son perros pequeños y sólidos, además de equilibrados y con un aspecto inteligente. Los ojos y el hocico tienen un color negro intenso que contrasta con el pelaje blanco como la nieve y la cola que se curva sobre el lomo y parece una pluma. El pelaje es sedoso y rizado y les da la apariencia de borlas. Los machos y las hembras adultos miden entre 23 y 28 cm y pesan de 3 a 6 kg.",
+            "personalidad":"A estos perritos felices y activos les encanta la vida familiar. Les gusta mucho acompañar a la familia en todas las salidas, pero pueden quedarse solos de vez en cuando.",
+            "salud":"Los bichones son, en general, unos perritos muy sanos. Aun así, como ocurre con muchas otras razas, pueden padecer desplazamientos temporales de la rótula (luxaciones de rótula).",
+            "origen":"Hace siglos el bichón frisé era una raza popular en Francia y España y aparece en retratos de las familias reales de ambos países.",
+            "img": "img/dogs/affenpinscher.png"
+        },
+        {
+            "id":6,
+            "nombre":"Akita japonés",
+            "descripcion":"Son perros pequeños y sólidos, además de equilibrados y con un aspecto inteligente. Los ojos y el hocico tienen un color negro intenso que contrasta con el pelaje blanco como la nieve y la cola que se curva sobre el lomo y parece una pluma. El pelaje es sedoso y rizado y les da la apariencia de borlas. Los machos y las hembras adultos miden entre 23 y 28 cm y pesan de 3 a 6 kg.",
+            "personalidad":"A estos perritos felices y activos les encanta la vida familiar. Les gusta mucho acompañar a la familia en todas las salidas, pero pueden quedarse solos de vez en cuando.",
+            "salud":"Los bichones son, en general, unos perritos muy sanos. Aun así, como ocurre con muchas otras razas, pueden padecer desplazamientos temporales de la rótula (luxaciones de rótula).",
+            "origen":"Hace siglos el bichón frisé era una raza popular en Francia y España y aparece en retratos de las familias reales de ambos países.",
+            "img": "img/dogs/akitajapones.png"
+        },
+        {
+            "id":7,
+            "nombre":"Basset Hound",
+            "descripcion":"Son perros pequeños y sólidos, además de equilibrados y con un aspecto inteligente. Los ojos y el hocico tienen un color negro intenso que contrasta con el pelaje blanco como la nieve y la cola que se curva sobre el lomo y parece una pluma. El pelaje es sedoso y rizado y les da la apariencia de borlas. Los machos y las hembras adultos miden entre 23 y 28 cm y pesan de 3 a 6 kg.",
+            "personalidad":"A estos perritos felices y activos les encanta la vida familiar. Les gusta mucho acompañar a la familia en todas las salidas, pero pueden quedarse solos de vez en cuando.",
+            "salud":"Los bichones son, en general, unos perritos muy sanos. Aun así, como ocurre con muchas otras razas, pueden padecer desplazamientos temporales de la rótula (luxaciones de rótula).",
+            "origen":"Hace siglos el bichón frisé era una raza popular en Francia y España y aparece en retratos de las familias reales de ambos países.",
+            "img": "img/dogs/bassethound.png"
+        },
+        {
+            "id":8,
+            "nombre":"Beauceron",
+            "descripcion":"Son perros pequeños y sólidos, además de equilibrados y con un aspecto inteligente. Los ojos y el hocico tienen un color negro intenso que contrasta con el pelaje blanco como la nieve y la cola que se curva sobre el lomo y parece una pluma. El pelaje es sedoso y rizado y les da la apariencia de borlas. Los machos y las hembras adultos miden entre 23 y 28 cm y pesan de 3 a 6 kg.",
+            "personalidad":"A estos perritos felices y activos les encanta la vida familiar. Les gusta mucho acompañar a la familia en todas las salidas, pero pueden quedarse solos de vez en cuando.",
+            "salud":"Los bichones son, en general, unos perritos muy sanos. Aun así, como ocurre con muchas otras razas, pueden padecer desplazamientos temporales de la rótula (luxaciones de rótula).",
+            "origen":"Hace siglos el bichón frisé era una raza popular en Francia y España y aparece en retratos de las familias reales de ambos países.",
+            "img": "img/dogs/beuceron.png"
+        },
+        {
+            "id":9,
+            "nombre":"Bichón Boloñes",
+            "descripcion":"Son perros pequeños y sólidos, además de equilibrados y con un aspecto inteligente. Los ojos y el hocico tienen un color negro intenso que contrasta con el pelaje blanco como la nieve y la cola que se curva sobre el lomo y parece una pluma. El pelaje es sedoso y rizado y les da la apariencia de borlas. Los machos y las hembras adultos miden entre 23 y 28 cm y pesan de 3 a 6 kg.",
+            "personalidad":"A estos perritos felices y activos les encanta la vida familiar. Les gusta mucho acompañar a la familia en todas las salidas, pero pueden quedarse solos de vez en cuando.",
+            "salud":"Los bichones son, en general, unos perritos muy sanos. Aun así, como ocurre con muchas otras razas, pueden padecer desplazamientos temporales de la rótula (luxaciones de rótula).",
+            "origen":"Hace siglos el bichón frisé era una raza popular en Francia y España y aparece en retratos de las familias reales de ambos países.",
+            "img": "img/dogs/bichon_bolones.png"
+        },
+        {
+            "id":4,
+            "nombre":"Bóxer",
+            "descripcion":"Son perros pequeños y sólidos, además de equilibrados y con un aspecto inteligente. Los ojos y el hocico tienen un color negro intenso que contrasta con el pelaje blanco como la nieve y la cola que se curva sobre el lomo y parece una pluma. El pelaje es sedoso y rizado y les da la apariencia de borlas. Los machos y las hembras adultos miden entre 23 y 28 cm y pesan de 3 a 6 kg.",
+            "personalidad":"A estos perritos felices y activos les encanta la vida familiar. Les gusta mucho acompañar a la familia en todas las salidas, pero pueden quedarse solos de vez en cuando.",
+            "salud":"Los bichones son, en general, unos perritos muy sanos. Aun así, como ocurre con muchas otras razas, pueden padecer desplazamientos temporales de la rótula (luxaciones de rótula).",
+            "origen":"Hace siglos el bichón frisé era una raza popular en Francia y España y aparece en retratos de las familias reales de ambos países.",
+            "img": "img/dogs/boxer.png"
+        }
+    ],
+    "conejos":[
+        {
+            "id":1,
+            "nombre":"Rex",
+            "descripcion":"El siguiente tipo de conejo es el conejo rex, que puede ser de dos tamaños. Por un lado, nos encontramos con el ejemplar standard, que suele ser más grande.",
+            "personalidad":"A menudo se muestra distante con los desconocidos, por lo que es imprescindible la socialización para este regio perro, al igual que un adiestramiento para cachorros, sobre todo para que aprenda a responder a la llamada del dueño.",
+            "salud":"Por lo general se trata de conejos muy activos que necesitan a una familia que le permita correr por la casa en diferentes momentos del día.",
+            "origen":"Se trata de una de las razas de conejos en México muy populares y es que los hay de todo tipo de colores incluyendo el negro, el chocolate, rojo o blanco.",
+            "img": "img/conejos/rex.png"
+        },
+        {
+            "id":2,
+            "nombre":"Cabeza de león",
+            "descripcion":"El conejo cabeza de león o lionhead es muy popular por su largo y divertido pelaje que recuerda, como bien indica su nombre, a la cabeza de un león.",
+            "personalidad":"Estos perros son únicos porque no ladran, pero sí emiten unos aullidos similares al canto tirolés cuando se ponen nerviosos. Esta raza, despierta, independiente, autosuficiente y prácticamente inodora; es muy similar a un gato y hasta se ha visto a estos perros escalar árboles y vallas como los felinos.",
+            "salud":"Su peso ronda entre 1 y 2 kg de peso y pueden ser de infinidad de colores, siempre presentando una cabeza peluda junto a un cuerpo de pelo medio/corto. Le cepillaremos de vez en cuando.",
+            "origen":"Originario de Bélgica, el conejo cabeza de león se considera una raza propiamente dicha, aunque recientemente muchos criadores hacen mezclas entre el conejo belier y el cabeza de león dando como resultado un ejemplar algo más grande.",
+            "img": "img/conejos/cabeza_leon.png"
+        },
+        {
+            "id":3,
+            "nombre":"Belier",
+            "descripcion":"El conejo belier destaca por sus largas orejas caídas, que le dan un aspecto tierno y melancólico.",
+            "personalidad":"Los beagles tienen buen carácter y si se crían para ser animales de manada, se llevarán bien con la mayoría de los perros. Les encantan los niños, pero en el caso de los gatos, deben estar en contacto con ellos desde cachorros para tener buenas relaciones con los felinos.",
+            "salud":"conejo dócil y tranquilo, especialmente dulce, que te enamorará por su comportamiento delicado dentro del hogar.",
+            "origen":"Se trata de otra de las razas de conejos en Argentina y en México.",
+            "img": "img/conejos/belier.png"
+        },
+        {
+            "id":4,
+            "nombre":"English angora",
+            "descripcion":"Esta raza de conejo destaca por su largo pelo sedoso y, en ocasiones, son criados exclusivamente con la finalidad de aprovechar su lana.",
+            "personalidad":"Los colores del english angora son varios, pasando por el blanco, negro, chocolate o castaña entre otros. Necesitará un cepillado diario.",
+            "salud":"Los bichones son, en general, unos perritos muy sanos. Aun así, como ocurre con muchas otras razas, pueden padecer desplazamientos temporales de la rótula (luxaciones de rótula).",
+            "origen":"el english angora procede de Ankara, Turquía.",
+            "img": "img/conejos/english.png"
+        },
+        {
+            "id":5,
+            "nombre":"Gigante de Flandes",
+            "descripcion":"es una mascota muy popular en las granjas de todo el mundo por su enorme tamaño y aspecto bonachón.",
+            "personalidad":"Los encontramos de todos los colores incluido el negro, azulado, beige, gris, marrón o blanco.",
+            "salud":"Los bichones son, en general, unos perritos muy sanos. Aun así, como ocurre con muchas otras razas, pueden padecer desplazamientos temporales de la rótula (luxaciones de rótula).",
+            "origen":"El conejo gigante de Flandes, de Bélgica.",
+            "img": "img/conejos/gitante.png"
+        },
+        {
+            "id":6,
+            "nombre":"Tan",
+            "descripcion":"El conejo tan es la expresión más parecida de un rottweiler o dóberman en versión lagomorfo.",
+            "personalidad":"Parece que tiene una actitud de alerta constante y es que se trata de un conejo inteligente y curioso de tamaño medio (llegan a pesar hasta 2,5 kg).",
+            "salud":"Los bichones son, en general, unos perritos muy sanos. Aun así, como ocurre con muchas otras razas, pueden padecer desplazamientos temporales de la rótula (luxaciones de rótula).",
+            "origen":"Aparecieron en Inglaterra a finales del siglo XIX.",
+            "img": "img/conejos/tan.png"
         }
     ]
 }

@@ -15,6 +15,15 @@
 background: -webkit-linear-gradient(0deg, #c70039 0%, #900c3f 100%);
 background: linear-gradient(0deg, #c70039 0%, #900c3f 100%);
 }
+/* zoom img */
+.mover{
+   transition: 0.5s;
+   object-fit: cover;
+}
+.mover:hover{
+   transition: 0.5s;
+   transform: scale(1.2);
+}
 
 /* offline */
 .alert{
