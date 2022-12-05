@@ -8,11 +8,10 @@ window.addEventListener('DOMContentLoaded', async ()=>{
      busqueda.addEventListener("change", () => {
        let buscar = busqueda.value;
        users = data[buscar]
-       console.log(users)
        renderUsers(users)    
+    //    console.log(users)
      });
 })
-
 async function loadUsers() {
     const response = await fetch("json.json")
    return  await response.json()
@@ -21,9 +20,16 @@ async function loadUsers() {
 input.addEventListener('keyup',e =>{
     const newUsers = users.filter(user => user.nombre.toLowerCase().includes(input.value.toLowerCase()))
     renderUsers(newUsers);
-    console.log(input.value)
- })
 
+    let error = document.querySelector('.err');
+    error.innerHTML = '';
+    if (newUsers.length === 0) {
+        error.innerHTML += `
+        <div class="error">
+        <p>Mascota no encontrada | Verifique su busqueda</p>
+        </div>`        
+    }
+ })
  const createUserItems = users => users.map(user => `
  <div class="col">
  <div style="border-color:#E1E1EF;" class="card">
